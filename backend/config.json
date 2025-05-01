@@ -1,0 +1,13 @@
+{
+  "embed": {
+    "title": "✅ Verify Your Account",
+    "description": "Please verify to access the server.",
+    "footer": "Verification powered by Aether-X",
+    "color": "#2b2d31",
+    "image": "",
+    "button1_label": "Verify",
+    "button1_url": "https://example.com",
+    "button2_label": "Tutorial",
+    "button2_url": "https://example.com"
+  }
+}

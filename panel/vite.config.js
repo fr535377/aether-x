@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      "/api": "https://aether-x.up.railway.app" // Cambia esto por tu subdominio real si es diferente
+      "/api": "https://aether-x.onrender.com" // Cambia esto por tu subdominio real si es diferente
     }
   }
 });

@@ -30,7 +30,7 @@ const rest = new REST({ version: '10' }).setToken(process.env.TOKEN);
     console.log('🔄 Refreshing application (/) commands...');
 
     await rest.put(
-      Routes.applicationCommands(process.env.CLIENT_ID),
+      Routes.applicationGuildCommands(process.env.CLIENT_ID, '1365742729346285699'),
       { body: commands }
     );
 
